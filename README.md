@@ -1,6 +1,6 @@
-# 🎨 Resources
+# 💎 Resources
 
-This repository contains the resource files used in Wind Addons development.
+Resource files used in Wind Addons development.
 
 <details>
 <summary>📖 Table of Contents</summary>
