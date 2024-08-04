@@ -27,10 +27,9 @@ git submodule update --init --recursive
 
 ## 🔄 Updating Fluent UI Emojis
 
-Updating emoji PNG files with the latest fluentui-emojis
-To update the emoji files, follow these steps:
+1. Install [wind-addons/flemjoi](https://github.com/wind-addons/flemoji).
+2. Run the following command to generate emojis from Fluent UI source:
 
-```powershell
-cd source/emoji/updater
-.\update.bat
-```
+   ```powershell
+   flemoji -W 512 -H 512 --from=source\fluentui-emoji\assets --to=dist\discord-3d-emoji -T png
+   ```
